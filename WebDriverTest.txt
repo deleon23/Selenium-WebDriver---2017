@@ -1,0 +1,12 @@
+Automatizando login site https://RDVSuperaQA.azurewebsites.net
+
+Criei um projeto ConsoleApplication  chamado WebDriverTest
+
+Atraves do Nuget package, baixei o plugin de webdriver selenium e o chromedriver.exe
+
+Após isso, em minha classe Program.cs, setei os using das referencias do webdriver e meu método static void do console, 
+criei o driver do chrome, fiz a conexao com o site, busquei as tags pelos FindElementByName e 
+para o botão, como não havia nome nem id, utilizei o FindElementByClassName, assim, com meus objetos criados,
+setei os valores com os métodos SenKeys referente aos dados do login e chamei o botao de login com .Click().
+
+Após este processo, gero um printscreem da tela do navegador.
